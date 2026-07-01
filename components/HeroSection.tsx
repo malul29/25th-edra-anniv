@@ -36,6 +36,8 @@ export default function HeroSection() {
         ))}
       </div>
 
+      {/* Blueprint grid background */}
+      <div className="hero-blueprint-bg" />
       <div className="hero-overlay" />
       <div className="hero-vignette" />
 
