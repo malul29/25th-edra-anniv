@@ -42,6 +42,9 @@ export default function HeroSection() {
       <div className="hero-vignette" />
 
       <div className="hero-content">
+        {/* Invite Badge */}
+        <div className="hero-badge">YOU&apos;RE INVITED TO</div>
+
         {/* EDRA Logo */}
         <Image
           src="/assets/edra-logo.png"

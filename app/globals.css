@@ -301,6 +301,33 @@ ul, ol { list-style: none; }
   width: 100%;
 }
 
+.hero-badge {
+  display: inline-block;
+  font-family: var(--gothic);
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.4em;
+  padding: 8px 20px;
+  border: 1px solid var(--glass-border);
+  color: var(--silver-lt);
+  border-radius: 2px;
+  margin-bottom: 24px;
+  animation: fadeUp 0.8s ease 0.3s both;
+  background: var(--glass);
+  position: relative;
+  text-transform: uppercase;
+}
+.hero-badge::before, .hero-badge::after {
+  content: '✦';
+  position: absolute;
+  font-size: 6px;
+  color: var(--silver-lt);
+  opacity: 0.6;
+  top: 50%; transform: translateY(-50%);
+}
+.hero-badge::before { left: 8px; }
+.hero-badge::after { right: 8px; }
+
 /* 25th Anniversary central image */
 .hero-anniv-img-wrap {
   width: 100%;
