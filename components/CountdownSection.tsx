@@ -52,8 +52,7 @@ export default function CountdownSection() {
   return (
     <section className="countdown-section" id="countdown">
       <div className="section-container">
-        <p className="section-label">Menuju Hari H</p>
-        <h2 className="section-heading">Waktu Berjalan</h2>
+        <p className="section-label">Countdown</p>
 
         {isOver ? (
           <p style={{ textAlign:'center', fontStyle:'italic', color:'var(--fg-muted)', fontFamily:'var(--serif)', marginBottom:40 }}>

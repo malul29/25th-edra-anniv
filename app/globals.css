@@ -259,6 +259,7 @@ ul, ol { list-style: none; }
 /* Architectural blueprint grid background */
 .hero-blueprint-bg {
   position: absolute; inset: 0; z-index: 0;
+  opacity: 0.5;
   background:
     /* Faint blueprint grid lines */
     linear-gradient(rgba(140,130,160,0.035) 1px, transparent 1px),

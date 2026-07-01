@@ -76,7 +76,7 @@ export default function HeroSection() {
 
         {/* Scroll indicator */}
         <button className="scroll-indicator" onClick={scrollToCountdown} aria-label="Scroll ke bawah">
-          <span className="scroll-text">GULIR</span>
+          <span className="scroll-text">SCROLL</span>
           <span className="scroll-line" />
         </button>
       </div>

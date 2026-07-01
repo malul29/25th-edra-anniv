@@ -22,7 +22,7 @@ export default function Preloader() {
           style={{ width: 72, height: 'auto' }}
           priority
         />
-        <p className="preloader-tagline">Anno Domini · MMXXVI</p>
+        <p className="preloader-tagline">25th Anniversary</p>
         <div className="preloader-bar">
           <div className="preloader-fill" />
         </div>

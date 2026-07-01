@@ -7,9 +7,9 @@ export default function DetailSection() {
       />
       <div className="detail-overlay" />
       <div className="section-container detail-content">
-        <p className="section-label">Tentang Acara</p>
+        <p className="section-label">Undangan Acara</p>
         <h2 className="section-heading">
-          XXV Anniversary<br />Edra Arsitek
+          25th Anniversary<br />EDRA Arsitek
         </h2>
         <p className="detail-desc">
           Dengan penuh kebahagiaan, kami mengundang Anda untuk hadir dan merayakan 
