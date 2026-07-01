@@ -1,5 +1,7 @@
 // app/api/rsvp/route.ts
 import { NextRequest, NextResponse } from 'next/server';
+
+export const dynamic = 'force-dynamic';
 import { getAllGuests, addGuest, Guest } from '@/lib/db';
 import { v4 as uuidv4 } from 'uuid';
 

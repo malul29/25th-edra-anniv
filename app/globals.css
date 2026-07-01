@@ -586,9 +586,9 @@ ul, ol { list-style: none; }
   position: absolute; inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(9, 8, 16, 0.93) 0%,
-    rgba(20, 18, 35, 0.6) 40%,
-    rgba(9, 8, 16, 0.97) 100%
+    rgba(10, 10, 10, 0.93) 0%,
+    rgba(20, 20, 20, 0.6) 40%,
+    rgba(10, 10, 10, 0.97) 100%
   );
 }
 .detail-content { position: relative; z-index: 2; text-align: center; }
@@ -661,7 +661,7 @@ ul, ol { list-style: none; }
 .map-wrapper::before {
   content: '';
   position: absolute; inset: 0; z-index: 1;
-  background: radial-gradient(ellipse at center, transparent 50%, rgba(9,8,16,0.5) 100%);
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(10,10,10,0.5) 100%);
   pointer-events: none;
 }
 .map-wrapper iframe {
@@ -722,9 +722,9 @@ ul, ol { list-style: none; }
   position: absolute; inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(9, 8, 16, 0.97) 0%,
-    rgba(18, 16, 30, 0.7) 40%,
-    rgba(9, 8, 16, 0.98) 100%
+    rgba(10, 10, 10, 0.97) 0%,
+    rgba(18, 18, 18, 0.7) 40%,
+    rgba(10, 10, 10, 0.98) 100%
   );
 }
 .rsvp-content { position: relative; z-index: 2; text-align: center; }
@@ -782,7 +782,7 @@ ul, ol { list-style: none; }
   justify-content: center;
   padding: 15px;
   margin-top: 8px;
-  background: linear-gradient(135deg, #3a3650 0%, #252338 100%);
+  background: linear-gradient(135deg, #3a3a3a 0%, #252525 100%);
   color: var(--fg);
   border-color: var(--silver-lt);
   font-size: 0.65rem;
@@ -790,9 +790,9 @@ ul, ol { list-style: none; }
   border-radius: 2px;
 }
 .btn-submit:hover {
-  background: linear-gradient(135deg, #4a4660 0%, #3a3650 100%);
+  background: linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 100%);
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(140,130,160,0.3);
+  box-shadow: 0 8px 30px rgba(140,140,140,0.3);
 }
 
 /* RSVP Success */
