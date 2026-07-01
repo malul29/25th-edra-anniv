@@ -64,8 +64,8 @@ body {
   max-width: 100vw;
   /* Blueprint texture overlay */
   background-image:
-    radial-gradient(ellipse at 20% 50%, rgba(140, 130, 160, 0.05) 0%, transparent 60%),
-    radial-gradient(ellipse at 80% 20%, rgba(100, 95, 120, 0.04) 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 50%, rgba(140, 140, 140, 0.05) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(100, 100, 100, 0.04) 0%, transparent 50%);
 }
 
 img { display: block; max-width: 100%; object-fit: cover; }
