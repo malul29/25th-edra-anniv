@@ -134,6 +134,8 @@ export default function RsvpSection() {
                   <option value="1">1 Orang</option>
                   <option value="2">2 Orang</option>
                   <option value="3">3 Orang</option>
+                  <option value="3">4 Orang</option>
+                  <option value="3">5 Orang</option>
                 </select>
               </div>
             )}
