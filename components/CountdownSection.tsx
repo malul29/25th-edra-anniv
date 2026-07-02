@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState, Fragment } from 'react';
 
-const EVENT_DATE = new Date('2026-07-04T11:00:00+07:00').getTime();
+const EVENT_DATE = new Date('2026-07-04T15:00:00+07:00').getTime();
 
 function pad(n: number) {
   return String(n).padStart(2, '0');
@@ -87,7 +87,7 @@ export default function CountdownSection() {
               <circle cx="12" cy="12" r="10"/>
               <polyline points="12 6 12 12 16 14"/>
             </svg>
-            <span>11:00 WIB — Selesai</span>
+            <span>15:00 WIB — Selesai</span>
           </div>
         </div>
       </div>
