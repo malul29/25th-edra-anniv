@@ -15,14 +15,22 @@ export interface Guest {
 
 const RSVP_KEY = 'edra:rsvp:guests';
 
-// Try to create Redis client — falls back to in-memory if env vars not set
+// Supports both UPSTASH_ (local/standard) and KV_ (Vercel KV integration) naming
 let redis: Redis | null = null;
 
 function getRedis(): Redis | null {
   if (redis) return redis;
-  const url = process.env.UPSTASH_REDIS_REST_URL ?? '';
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN ?? '';
-  // Only connect if URL looks valid (starts with https://)
+
+  // Prefer UPSTASH_ vars, fall back to Vercel KV_ vars
+  const url =
+    process.env.UPSTASH_REDIS_REST_URL ??
+    process.env.KV_REST_API_URL ??
+    '';
+  const token =
+    process.env.UPSTASH_REDIS_REST_TOKEN ??
+    process.env.KV_REST_API_TOKEN ??
+    '';
+
   if (url.startsWith('https://') && token.length > 10) {
     redis = new Redis({ url, token });
     return redis;
